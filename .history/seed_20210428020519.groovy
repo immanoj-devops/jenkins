@@ -89,7 +89,7 @@ pipelineJob('payment-ci') {
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
         'userRemoteConfigs' {
           'hudson.plugins.git.UserRemoteConfig' {
-            'url'('https://github.com/immanoj-devops/payment-.git')
+            'url'('https://github.com/immanoj-devops/catalogue-.git')
           }
         }
         'branches' {
